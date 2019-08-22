@@ -16,7 +16,9 @@ namespace Bosch2VMix
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            MainForm mForm = new MainForm();
+            Application.Run(mForm);
+
         }
     }
 }
